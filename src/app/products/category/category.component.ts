@@ -2,6 +2,8 @@ import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/services/auth.service';
 import { HttpClient } from '@angular/common/http';
+import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
+
 Router;
 @Component({
   selector: 'app-category',
@@ -41,8 +43,10 @@ export class CategoryComponent implements OnInit {
  public inputQyt:number;
  public sorting:any;
  public badgeNumber:number=0;
-
+public check=false;
  public productUnsortedInfo: any;
+ public inputOtp: any;
+ public someName: any;
     constructor(
     private route: Router,
     private http: HttpClient,
@@ -163,6 +167,7 @@ export class CategoryComponent implements OnInit {
     this.LogoutSection = true;
     this.cartSection = false;
     this.navii = false;
+    this.logoutFromApp()
 
 
   }
@@ -225,7 +230,8 @@ export class CategoryComponent implements OnInit {
     }
 
    console.log("comlete cart product",this.displayInCart);
-
+this.inputOtp=this.count;
+this.someName=this.currentUser;
   }
   logoutFromApp()
   {
@@ -260,4 +266,18 @@ this.sorting=someValue.value
     }
     return this.productItem;
     }
+    checkOutMail(e: Event) {
+
+  e.preventDefault();
+  emailjs.sendForm('service_oxlwczq', 'template_1dnaopg', e.target as HTMLFormElement, 'user_AacYUMSppC4DheDTVpf4W')
+    .then((result: EmailJSResponseStatus) => {
+      console.log(result.text);
+    }, (error) => {
+console.log("inside mailllllllllll");
+
+      console.log(error.text);
+    });
+ this.check=true;
 }
+    }
+

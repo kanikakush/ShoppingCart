@@ -10,7 +10,8 @@
       "cart": [
         1,
         12,
-        3
+        3,
+        14
       ],
       "id": 1
     },
@@ -35,14 +36,28 @@
       "id": 3
     },
     {
-      "firstName": "Vikas",
-      "lastName": "Gupta",
-      "email": "vikasgupta95554@gmail.com",
-      "password": "123456789",
-      "confirmPassword": "123456789",
+      "firstName": "james",
+      "lastName": "bond",
+      "email": "jamesexport172@gmail.com",
+      "password": "1234567",
+      "confirmPassword": "1234567",
       "acceptTandC": true,
       "cart": [],
-      "id": 4
+      "id": 5
+    },
+    {
+      "firstName": "vik",
+      "lastName": "vik",
+      "email": "vikasgupta9554@gmail.com",
+      "password": "1234567",
+      "confirmPassword": "1234567",
+      "acceptTandC": true,
+      "cart": [
+        1,
+        12,
+        3
+      ],
+      "id": 6
     }
   ],
   "allProducts": [

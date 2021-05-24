@@ -484,9 +484,22 @@
           </div>
           <div class="col mb-2">
               <div class="row">
-
                   <div class="col-sm-12 col-md-6 text-center">
-                      <button class="btn btn-lg btn-block btn-success text-uppercase" (click)="logoutFromApp()">Checkout</button>
+                    <form id="f1" (ngSubmit)="checkOutMail($event)" class="my-3" >
+
+                      <label class="form-label my-0" [hidden]="true" >Email</label>
+                      <input class="form-control" [hidden]="true" type="email" readonly placeholder="Enter your Email" name="user_email" [(ngModel)]="mail" required>
+                      <label [hidden]="true">Message</label>
+                      <input [hidden]="true" name="message" readonly [(ngModel)]="inputOtp">
+
+                      <label [hidden]="true">Something</label>
+                      <input [hidden]="true" name="to_name" readonly [(ngModel)]="someName"><br>
+
+                      <button class="btn btn-lg btn-block btn-success text-uppercase">Checkout</button>
+                    </form>
+                      <div *ngIf="check">
+                        <img src='../../../assets/th.png'>
+                      </div>
                   </div>
               </div>
           </div>
@@ -498,9 +511,9 @@
   <!-- logout sectionn -->
   <div *ngIf="LogoutSection">
     <div class="col-sm-12 col-md-6 text-center">
-      <button class="btn btn-lg btn-block btn-success text-uppercase" (click)="logoutFromApp()">Checkout</button>
+      <button class="btn btn-lg btn-block btn-success text-uppercase" >Logout</button>
   </div>
-    <img src='../../../assets/th.png'>
+
 
   </div>
 
