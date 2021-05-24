@@ -40,6 +40,7 @@ export class CategoryComponent implements OnInit {
   public productItem: any = [];
  public inputQyt:number;
  public sorting:any;
+ public badgeNumber:number=0;
 
  public productUnsortedInfo: any;
     constructor(
@@ -112,6 +113,7 @@ export class CategoryComponent implements OnInit {
         this.tempdata = data;
         this.numberofProductsInCart = this.tempdata.cart.length;
         console.log(this.numberofProductsInCart);
+        this.badgeNumber+=1;
       });
     //this.cartItem=this.numberofProductsInCart;
     console.log('hellooooooooooooooooo');

@@ -8,9 +8,9 @@
       "confirmPassword": "12345678",
       "acceptTandC": false,
       "cart": [
+        1,
         12,
-        3,
-        1
+        3
       ],
       "id": 1
     },
@@ -33,6 +33,16 @@
       "acceptTandC": true,
       "cart": [],
       "id": 3
+    },
+    {
+      "firstName": "Vikas",
+      "lastName": "Gupta",
+      "email": "vikasgupta95554@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "acceptTandC": true,
+      "cart": [],
+      "id": 4
     }
   ],
   "allProducts": [

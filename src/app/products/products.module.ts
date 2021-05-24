@@ -17,7 +17,7 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { SortPipe } from './pipes/sort.pipe';
-
+import {MatBadgeModule} from '@angular/material/badge';
 @NgModule({
   declarations: [
     ProductsComponent,
@@ -39,7 +39,8 @@ import { SortPipe } from './pipes/sort.pipe';
     FormsModule,
     MatIconModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatBadgeModule
   ],
   exports:[
     ProductsComponent,
