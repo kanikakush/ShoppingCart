@@ -1,0 +1,353 @@
+{
+  "user": [
+    {
+      "firstName": "mayra",
+      "lastName": "kush",
+      "email": "mayra@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "acceptTandC": false,
+      "cart": [
+        12,
+        3,
+        1
+      ],
+      "id": 1
+    },
+    {
+      "firstName": "Kanika",
+      "lastName": "Kushwaha",
+      "email": "kanikakushwaha.kk@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "acceptTandC": true,
+      "cart": [],
+      "id": 2
+    },
+    {
+      "firstName": "Pinky",
+      "lastName": "Kushwaha",
+      "email": "pinkykushwaha04@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "acceptTandC": true,
+      "cart": [],
+      "id": 3
+    }
+  ],
+  "allProducts": [
+    {
+      "id": 1,
+      "productName": "boAt Rockerz 450 N Wireless Headphone",
+      "price": 15999,
+      "productDescription": "Set your mind ablaze with the slick sound and expansive design that has culminated into the boAt Rockerz 450, adding luxury to your sound.",
+      "productImage": "./../assets/headset2.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 12,
+      "productName": "Nerida Saree",
+      "price": 3599,
+      "productDescription": "A sage green sequinned saree adorned with blue borders and prints of flower-laden branches and powder blue booms. An ideal drape for an evening out.",
+      "productImage": "./../assets/saree.jpg",
+      "category": "cloths"
+    },
+    {
+      "id": 3,
+      "productName": "boAt Rockerz 370 Wireless Headphone ",
+      "price": 19999,
+      "productDescription": "Set your mind ablaze with the slick sound and expansive design that has culminated into the boAt Rockerz 450, adding luxury to your sound.",
+      "productImage": "./../assets/headset.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 4,
+      "productName": "Galaxy Note20 | 20 Ultra",
+      "price": 95000,
+      "productDescription": "The first to merge a pen with a phone, Note put a whole new world in your pocket.",
+      "productImage": "./../assets/samsung.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 14,
+      "productName": "Nike Joyride",
+      "price": 12099,
+      "productDescription": "We spent years obsessing the beads—finding the right size, shape and feel to deliver a soft, comfortable ride. Here’s how it works: Every time you take a step—or stride—10,000+ beads shape around your foot to provide personalized cushioning and support, before responsively bouncing back to propel you forward.",
+      "productImage": "./../assets/s2.jpg",
+      "quantity": 0,
+      "category": "shoe"
+    },
+    {
+      "id": 6,
+      "productName": "iPad",
+      "price": 89990,
+      "productDescription": "Apple iPad Pro 12.9-inch (2021) Wi-Fi + Cellular tablet was launched on 20th April 2021. a sleek, minimalist design, and differs ",
+      "productImage": "./../assets/ipad.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 7,
+      "productName": "Shirt",
+      "price": 1200,
+      "productDescription": "Mens Blue Printed Slim Fit Shirt. Sure to reserve a spot in your core wardrobe, this Mens sky blue slim fit shirt from our Miami collection is crafted from 100% cotton.",
+      "productImage": "./../assets/shirt.jpg",
+      "quantity": 0,
+      "category": "cloths"
+    },
+    {
+      "id": 8,
+      "productName": "Midi Dress",
+      "price": 1399,
+      "productDescription": "1950s Vintage Style Simply Irresistible Floral Print Midi Dress",
+      "productImage": "./../assets/formal.jpg",
+      "quantity": 0,
+      "category": "cloths"
+    },
+    {
+      "id": 9,
+      "productName": "T-shirt",
+      "price": 1399,
+      "productDescription": "Fashion Floral Print Pleat A Line Midi Dress. Best in fabric",
+      "productImage": "./../assets/tshirt.jpg",
+      "category": "cloths"
+    },
+    {
+      "id": 2,
+      "productName": "i Phone X",
+      "price": 90000,
+      "productDescription": "The iPhone is a smartphone developed by Apple. ... The iPhone has a sleek, minimalist design, and differs from other smartphones in its lack of buttons. ",
+      "productImage": "./../assets/iphone.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 10,
+      "productName": "Floral Dress ",
+      "price": 1399,
+      "productDescription": "1950s Vintage Style Simply Irresistible Floral Print Midi Dress",
+      "productImage": "./../assets/pants.jpg",
+      "category": "cloths"
+    },
+    {
+      "id": 11,
+      "productName": "Layered Midi Dress",
+      "price": 2999,
+      "productDescription": "Flounce Detail Layered Midi Dress Fashion Floral Print Pleat A Line Midi Dress. Best in fabric",
+      "productImage": "./../assets/dress.jpg",
+      "category": "cloths"
+    },
+    {
+      "id": 13,
+      "productName": "Nike Air Mag sneakers",
+      "price": 15000,
+      "productDescription": "Nearly fifty years after its conception in 1971, Nike’s iconic Swoosh logo remains unchanged, showcasing a prevalent and pioneering symbol for the brand.Oh my gosh, there’s so much cushion in them… feels like you’re on a cloud. Super comfy! And the fit is perfect. I’ll definitely use these for recovery runs… they’re easy on my legs and feel great on my feet.",
+      "productImage": "./../assets/shoes.jpg",
+      "quantity": 0,
+      "category": "shoe"
+    },
+    {
+      "id": 15,
+      "productName": "Nike VP",
+      "price": 9999,
+      "productDescription": "We picked basketball as the first sport for Nike Adapt intentionally because of the demands that athletes put on their shoes,” says Eric Avar, Nike VP Creative Director of Innovation. “During a normal basketball game the athlete’s foot changes and the ability to quickly change your fit",
+      "quantity": 0,
+      "productImage": "./../assets/s1.jpg",
+      "category": "shoes"
+    },
+    {
+      "id": 16,
+      "productName": "PUMA XRay Jr Dark Shad Lace-Up Casual Shoes",
+      "price": 3249,
+      "productDescription": "PUMA is one of the world’s leading Sports Brands, designing, developing, selling and marketing footwear, apparel and accessories. For 70 years, PUMA has established a history of making fast product designs for the fastest athletes on the planet. .",
+      "productImage": "./../assets/s3.jpg",
+      "quantity": 0,
+      "category": "shoes"
+    },
+    {
+      "id": 17,
+      "productName": "Platinum Metallic SoftFoam+ Women's Training Shoes",
+      "price": 3999,
+      "productDescription": "Step into affordable luxury with our Platinum Metallic Training Shoes. This fashionable, flirty silhouette features a SoftFoam+ sockliner and unique sculpting for an unparalleled look and feel that's sure to be a favourite among gym goers.",
+      "productImage": "./../assets/s4.jpg",
+      "quantity": 0,
+      "category": "shoes"
+    },
+    {
+      "id": 18,
+      "productName": "Puma RS-X Spring Sneakers JR",
+      "price": 7999,
+      "productDescription": "Put an extra spring in your step with the latest edition of RS-X. The retro running silhouette is reimagined in bold and unapologetic style- with amplified detailing on the upper, futuristic design and playful pops of color.",
+      "productImage": "./../assets/s5.jpg",
+      "quantity": 0,
+      "category": "shoes"
+    }
+  ],
+  "electronics": [
+    {
+      "id": 1,
+      "productName": "boAt Rockerz 450 N Wireless Headphone",
+      "price": 15999,
+      "productDescription": "Set your mind ablaze with the slick sound and expansive design that has culminated into the boAt Rockerz 450, adding luxury to your sound.",
+      "productImage": "./../assets/headset2.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 2,
+      "productName": "i Phone X",
+      "price": 90000,
+      "productDescription": "The iPhone is a smartphone developed by Apple. ... The iPhone has a sleek, minimalist design, and differs from other smartphones in its lack of buttons. ",
+      "productImage": "./../assets/iphone.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 3,
+      "productName": "boAt Rockerz 370 Wireless Headphone ",
+      "price": 19999,
+      "productDescription": "Set your mind ablaze with the slick sound and expansive design that has culminated into the boAt Rockerz 450, adding luxury to your sound.",
+      "productImage": "./../assets/headset.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 4,
+      "productName": "Galaxy Note20 | 20 Ultra",
+      "price": 95000,
+      "productDescription": "The first to merge a pen with a phone, Note put a whole new world in your pocket.",
+      "productImage": "./../assets/samsung.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 5,
+      "productName": "Apple MacBook Pro 13-Inch",
+      "price": 85000,
+      "productDescription": "A controversial keyboard once present on every Apple laptop is now a thing of the past. ",
+      "productImage": "./../assets/laptop.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    },
+    {
+      "id": 6,
+      "productName": "iPad",
+      "price": 89990,
+      "productDescription": "Apple iPad Pro 12.9-inch (2021) Wi-Fi + Cellular tablet was launched on 20th April 2021. a sleek, minimalist design, and differs ",
+      "productImage": "./../assets/ipad.jpg",
+      "quantity": 0,
+      "category": "electronics"
+    }
+  ],
+  "Cloths": [
+    {
+      "id": 7,
+      "productName": "Shirt",
+      "price": 1200,
+      "productDescription": "Mens Blue Printed Slim Fit Shirt. Sure to reserve a spot in your core wardrobe, this Mens sky blue slim fit shirt from our Miami collection is crafted from 100% cotton.",
+      "productImage": "./../assets/shirt.jpg",
+      "quantity": 0,
+      "category": "cloths"
+    },
+    {
+      "id": 8,
+      "productName": "Midi Dress",
+      "price": 1399,
+      "productDescription": "1950s Vintage Style Simply Irresistible Floral Print Midi Dress",
+      "productImage": "./../assets/formal.jpg",
+      "quantity": 0,
+      "category": "cloths"
+    },
+    {
+      "id": 9,
+      "productName": "T-shirt",
+      "price": 1399,
+      "productDescription": "Fashion Floral Print Pleat A Line Midi Dress. Best in fabric",
+      "productImage": "./../assets/tshirt.jpg",
+      "category": "cloths"
+    },
+    {
+      "id": 10,
+      "productName": "Floral Dress ",
+      "price": 1399,
+      "productDescription": "1950s Vintage Style Simply Irresistible Floral Print Midi Dress",
+      "productImage": "./../assets/pants.jpg",
+      "category": "cloths"
+    },
+    {
+      "id": 11,
+      "productName": "Layered Midi Dress",
+      "price": 2999,
+      "productDescription": "Flounce Detail Layered Midi Dress Fashion Floral Print Pleat A Line Midi Dress. Best in fabric",
+      "productImage": "./../assets/dress.jpg",
+      "category": "cloths"
+    },
+    {
+      "id": 12,
+      "productName": "Nerida Saree",
+      "price": 3599,
+      "productDescription": "A sage green sequinned saree adorned with blue borders and prints of flower-laden branches and powder blue booms. An ideal drape for an evening out.",
+      "productImage": "./../assets/saree.jpg",
+      "category": "cloths"
+    }
+  ],
+  "shoes": [
+    {
+      "id": 13,
+      "productName": "Nike Air Mag sneakers",
+      "price": 15000,
+      "productDescription": "Nearly fifty years after its conception in 1971, Nike’s iconic Swoosh logo remains unchanged, showcasing a prevalent and pioneering symbol for the brand.Oh my gosh, there’s so much cushion in them… feels like you’re on a cloud. Super comfy! And the fit is perfect. I’ll definitely use these for recovery runs… they’re easy on my legs and feel great on my feet.",
+      "productImage": "./../assets/shoes.jpg",
+      "quantity": 0,
+      "category": "shoe"
+    },
+    {
+      "id": 14,
+      "productName": "Nike Joyride",
+      "price": 12099,
+      "productDescription": "We spent years obsessing the beads—finding the right size, shape and feel to deliver a soft, comfortable ride. Here’s how it works: Every time you take a step—or stride—10,000+ beads shape around your foot to provide personalized cushioning and support, before responsively bouncing back to propel you forward.",
+      "productImage": "./../assets/s2.jpg",
+      "quantity": 0,
+      "category": "shoe"
+    },
+    {
+      "id": 15,
+      "productName": "Nike VP",
+      "price": 9999,
+      "productDescription": "We picked basketball as the first sport for Nike Adapt intentionally because of the demands that athletes put on their shoes,” says Eric Avar, Nike VP Creative Director of Innovation. “During a normal basketball game the athlete’s foot changes and the ability to quickly change your fit",
+      "quantity": 0,
+      "productImage": "./../assets/s1.jpg",
+      "category": "shoes"
+    },
+    {
+      "id": 16,
+      "productName": "PUMA XRay Jr Dark Shad Lace-Up Casual Shoes",
+      "price": 3249,
+      "productDescription": "PUMA is one of the world’s leading Sports Brands, designing, developing, selling and marketing footwear, apparel and accessories. For 70 years, PUMA has established a history of making fast product designs for the fastest athletes on the planet. .",
+      "productImage": "./../assets/s3.jpg",
+      "quantity": 0,
+      "category": "shoes"
+    },
+    {
+      "id": 17,
+      "productName": "Platinum Metallic SoftFoam+ Women's Training Shoes",
+      "price": 3999,
+      "productDescription": "Step into affordable luxury with our Platinum Metallic Training Shoes. This fashionable, flirty silhouette features a SoftFoam+ sockliner and unique sculpting for an unparalleled look and feel that's sure to be a favourite among gym goers.",
+      "productImage": "./../assets/s4.jpg",
+      "quantity": 0,
+      "category": "shoes"
+    },
+    {
+      "id": 18,
+      "productName": "Puma RS-X Spring Sneakers JR",
+      "price": 7999,
+      "productDescription": "Put an extra spring in your step with the latest edition of RS-X. The retro running silhouette is reimagined in bold and unapologetic style- with amplified detailing on the upper, futuristic design and playful pops of color.",
+      "productImage": "./../assets/s5.jpg",
+      "quantity": 0,
+      "category": "shoes"
+    }
+  ]
+}
