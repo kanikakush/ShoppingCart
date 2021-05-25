@@ -117,11 +117,11 @@ public check=false;
         this.tempdata = data;
         this.numberofProductsInCart = this.tempdata.cart.length;
         console.log(this.numberofProductsInCart);
-        this.badgeNumber+=1;
+        this.badgeNumber=this.numberofProductsInCart;
       });
     //this.cartItem=this.numberofProductsInCart;
     console.log('hellooooooooooooooooo');
-
+    this.badgeNumber;
     //console.log(this.cartItem);
   }
 

@@ -47,6 +47,8 @@ public urlUser='http://localhost:3000/user';
       console.log(pass);
       for(let i = 0; i < this.info.length; i++){
         console.log("inside for service");
+        console.log(this.info[i]);
+
         if(mail===this.info[i].email && pass===this.info[i].password )
         {
             console.log("matched");
@@ -55,13 +57,11 @@ public urlUser='http://localhost:3000/user';
             //this.route.navigateByUrl("/products")
 
             return true;
-        }else{
-          alert("Incorrect PassWord or Email ID")
-          return
         }
+
       }
-
-
+      alert("Incorrect PassWord or Email ID")
+      return
     }
 
 }

@@ -7,23 +7,8 @@
       "password": "12345678",
       "confirmPassword": "12345678",
       "acceptTandC": false,
-      "cart": [
-        1,
-        12,
-        3,
-        14
-      ],
-      "id": 1
-    },
-    {
-      "firstName": "Kanika",
-      "lastName": "Kushwaha",
-      "email": "kanikakushwaha.kk@gmail.com",
-      "password": "12345678",
-      "confirmPassword": "12345678",
-      "acceptTandC": true,
       "cart": [],
-      "id": 2
+      "id": 1
     },
     {
       "firstName": "Pinky",
@@ -37,27 +22,17 @@
     },
     {
       "firstName": "james",
-      "lastName": "bond",
+      "lastName": "export",
       "email": "jamesexport172@gmail.com",
-      "password": "1234567",
-      "confirmPassword": "1234567",
-      "acceptTandC": true,
-      "cart": [],
-      "id": 5
-    },
-    {
-      "firstName": "vik",
-      "lastName": "vik",
-      "email": "vikasgupta9554@gmail.com",
-      "password": "1234567",
-      "confirmPassword": "1234567",
+      "password": "123456",
+      "confirmPassword": "123456",
       "acceptTandC": true,
       "cart": [
         1,
         12,
         3
       ],
-      "id": 6
+      "id": 4
     }
   ],
   "allProducts": [

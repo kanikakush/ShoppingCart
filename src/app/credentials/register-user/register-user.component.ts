@@ -92,7 +92,6 @@ newuser=false;
     this.form1=false;
       }
 
-
       //this.route.navigateByUrl('login');
     }
   }
