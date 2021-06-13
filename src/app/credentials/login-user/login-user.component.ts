@@ -36,15 +36,7 @@ export class LoginUserComponent implements OnInit {
 
   }
 
-  // verify()
-  // {
-  //   if(localStorage.getItem('token'))
-  //   {
-  //     localStorage.removeItem('token');
-  //   }
-
-  // }
-  loginSubmit(){
+   loginSubmit(){
     this.isSubmitted = true
     this.em=this.loginForm.value;
     console.log(this.em);

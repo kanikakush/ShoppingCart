@@ -84,9 +84,7 @@ newuser=false;
       {
         console.log("inside onregister new user");
 
-        this.http.post('http://localhost:3000/user', this.registerForm.value).subscribe(data => {
-          console.log(data);
-        })
+
         alert("Verify Your email pppp ")
     this.hivisible=true;
     this.form1=false;
@@ -114,6 +112,9 @@ newuser=false;
     if(this.otp==this.inputOtp){
        alert("verified user");
        console.log("verified otp")
+       this.http.post('http://localhost:3000/user', this.registerForm.value).subscribe(data => {
+        console.log(data);
+      })
        this.route.navigateByUrl('login');
 
     }
